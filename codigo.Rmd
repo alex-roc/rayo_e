@@ -1,5 +1,5 @@
 ---
-title: "Comunidades de opinión alrededor de #RayoEvolizador en Twitter"
+title: "Comunidades de opinión alrededor del hashtag #RayoEvolizador en Twitter"
 author: "Alex Ojeda Copa"
 date: "07/03/2018"
 output: 
