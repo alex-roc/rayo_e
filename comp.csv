@@ -1,0 +1,7 @@
+Id;Actor;Forma;Nodos ;Aristas;% del grafo;Densidad
+A;Civil ;Orgánica;393;1048;16,92;0,007
+B;Activista oficialista;Descentralizada;243;1335;10,46;0,023
+C;Activista opositora;Descentralizada;365;742;15,71;0,006
+D;Gubernamental oficialista;Centralizada;1034;1045;44,51;0,001
+E;Medios;Descentralizada;162;201;6,97;0,008
+F;Otros;NA;126;1853;5,43;NA
