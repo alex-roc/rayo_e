@@ -192,7 +192,7 @@ comp %>% knitr::kable()
 
 Generamos un grafo dinámico en el que podemos ver esas tendencias y otras:
 
-![](img/dym2.gif)
+![](https://media.giphy.com/media/31Ykar0Tbncf3HahYY/giphy.gif)
 
 
 También creamos una versión interactiva del grafo, que puede ser visualizada [aquí](sigma/index.html).
