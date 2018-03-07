@@ -1,10 +1,10 @@
-e{
+ {
   "type": "network",
   "version": "1.0",
   "data": "data.json",
   "logo": {
     "file": "",
-    "link": "",
+    "link": "https://twitter.com/alexrocz",
     "text": "Alex Ojeda Copa"
   },
   "text": {
