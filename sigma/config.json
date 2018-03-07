@@ -4,13 +4,13 @@
   "data": "data.json",
   "logo": {
     "file": "",
-    "link": "https://twitter.com/alexrocz",
+    "link": "",
     "text": "Alex Ojeda Copa"
   },
   "text": {
     "more": "",
     "intro": "Autor: Alex Ojeda Copa | @alexrocz\n\nEste es un grafo de las interacciones en Twitter alrededor del hashtag #RayoEvolizador",
-    "title": "Comunidades de opinión en torno a #RayoEvolizador"
+    "title": "Comunidad de opinión en torno a #RayoEvolizador"
   },
   "legend": {
     "edgeLabel": "Interacción",
