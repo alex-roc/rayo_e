@@ -224,10 +224,15 @@ Vickery, Jacqueline (2015). "Memes in digital culture". En: *Information, Commun
 * SocialMediaLab
 * iGraph
 * Gephi
+* Sigma.js
+
+## Sobre el autor
+
+Alex Ojeda Copa es sociólogo digital y análista de redes sociales. Puedes encontrarlo en [Twitter](https://twitter.com/alexrocz), [Academia.edu](https://umss.academia.edu/alexroc) y [Linkedin](https://www.linkedin.com/in/alexroc/).
 
 ## Notas
 [^1]: Aquí utilizamos el termino "comunidad" no en su sentido antropológico de sentidos compartidos, sino en el sentido del Análisis de Redes, como un conjunto de actores que interaccionan frecuentemente hacia adentro pero no mucho hacia afuera, siendo esa su frontera con otras comunidades. 
-[^2]: Aquí usamos el algoritmo de modularidad que tiene Gephi incorporado, conocido también como "Louvain Modularity". Básicamente lo que hace este algoritmo es hacer un calculo del peso de las aristas en el vecindario de cada nodo, para detectar nodos donde las aristas son más densas entre sí y al mismo tiempo menos densas frente a otros. Así es posible detectar comunidades basadas en la interacción. Más detalles en: https://arxiv.org/abs/0803.0476. 
+[^2]: Usamo el algoritmo de modularidad que tiene Gephi incorporado, conocido también como "Louvain Modularity". Básicamente lo que hace este algoritmo es hacer un calculo del peso de las aristas en el vecindario de cada nodo, para detectar nodos donde las aristas son más densas entre sí y al mismo tiempo menos densas frente a otros. Así es posible detectar comunidades basadas en la interacción. Más detalles en: https://arxiv.org/abs/0803.0476. 
 
 
 
