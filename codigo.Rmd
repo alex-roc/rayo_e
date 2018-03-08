@@ -106,7 +106,7 @@ La comunidad que originó el hashtag creció con el tiempo. Si vemos la forma de
 
 ![Figura 4. Grafo de la comunidad de opinión civil](img/com1full.jpg)
 
-En esta comunidad tienen mayor presencia usuarios de Twitter que no son políticos ni activistas, sino principalmente de cuentas dedicadas a difundir memes textuales e historias y algunos blogueros. Para evitar connotaciones de tinte político o activista, los llamaremos "civiles".
+En esta comunidad tienen mayor presencia usuarios de Twitter que no son políticos ni activistas, sino principalmente de cuentas dedicadas a difundir memes textuales e historias y algunos blogueros. Muchos de ellos incluso actúan a partir de un avatar, mostrando la fuerza de la anonimidad. Para evitar connotaciones de tinte político o activista, los llamaremos "civiles".
 
 ```{r message = FALSE}
 library(readr)
@@ -200,11 +200,11 @@ Para una exploración más minuciosa:
 
 ## Conclusiones
 
-El hashtag #RayoEvolizador fue fugaz, como suelen ser los memes y los fenomenos virales. Hoy ya no parece importante y los usuarios de las redes parecen estar siguiendo y generando otras tendencias, en lo lógica del prosumidor. Sin embargo, este tipo de fenómenos sociodigitales dejan huellas impresas en la Web, como pudimos visualizar aquí, las cuáles nos sirven para la comprension de las dinamicas de opinion en redes sociales en nuestro país, aún escasa y rusticamente analizadas.  
+El hashtag #RayoEvolizador fue fugaz, como suelen ser los memes y los fenomenos virales. Hoy ya no parece importante y los usuarios de las redes parecen estar siguiendo y generando otras tendencias, en la lógica del prosumidor. Sin embargo, este tipo de fenómenos sociodigitales dejan huellas impresas en la Web, como pudimos visualizar aquí, las cuáles nos sirven para la comprension de las dinamicas de opinion en redes sociales en nuestro país, siendo que su estudio en nuestro país aún es escaso y sus métodos rusticos.   
 
-En este caso, la dinámica concreta fue la siguiente. Una comunidad civil que busca principalmente el humor crea el hashtag, ante lo cual aparecen dos comunidades activistas, oficialista y opositora, para tácticamente, desde una lucha de interacción de redes llevar el hashtag a sus horizontes. En eso interviene la cuenta del presidente @evoespueblo para sentar su presencia, teniendo un fuerte apoyo, en primer lugar, de individuos inconexos y en segundo lugar del activismo oficialista. Después de esos encuentros, vienen algunos rezagados, incluyendo la prensa. Es decir que lo que más dinamizó el hashtag fue aquella comunidad orgánica original, para que luego la abordara una lógica de activismo en red y otra lógica centralizada gubernamental. 
+En este caso, la dinámica concreta fue la siguiente. Una comunidad civil que busca principalmente el humor crea el hashtag, ante lo cual aparecen dos comunidades activistas para tácticamente, desde una lucha de interacción de redes llevar el hashtag a sus horizontes. En eso interviene la cuenta del presidente @evoespueblo para sentar su presencia, teniendo un fuerte apoyo, en primer lugar, de individuos inconexos y en segundo lugar del activismo oficialista. Después de esos encuentros, vienen algunos rezagados, incluyendo la prensa. Es decir que lo que más dinamizó el hashtag fue aquella comunidad orgánica original, para que luego la abordara una lógica de activismo en red y otra lógica centralizada gubernamental. 
 
-Si bien este es un caso concreto, puede ilustrar otras dinámicas de generación de opinión pública en las redes, fundamentalmente las menos agresivas y más sutiles, que sólo pueden ser observadas a vista de pájaro. Incluyendo la ahora denominada "guerra digital" (Los Tiempos 04/02/2018) que el gobierno afirma haber iniciado. 
+Si bien este es un caso concreto, puede ilustrar otras dinámicas de generación de opinión pública en las redes, principalmente las más sutiles que sólo pueden ser apreciadas a partir una mirada panorámica. Incluyendo la ahora denominada "guerra digital" (Los Tiempos 04/02/2018) que el gobierno afirma haber iniciado. 
 
 ## Bibliografía
 
@@ -229,7 +229,7 @@ Vickery, Jacqueline (2015). "Memes in digital culture". En: *Information, Commun
 
 ## Sobre el autor
 
-Alex Ojeda Copa es sociólogo digital y análista de redes sociales. Puedes encontrarlo en [Twitter](https://twitter.com/alexrocz), [Academia.edu](https://umss.academia.edu/alexroc) y [Linkedin](https://www.linkedin.com/in/alexroc/).
+Alex Ojeda Copa es sociólogo digital y análista de redes sociales. Pueden encontrarlo en [Twitter](https://twitter.com/alexrocz), [Academia.edu](https://umss.academia.edu/alexroc) y [Linkedin](https://www.linkedin.com/in/alexroc/).
 
 ## Notas
 [^1]: Aquí utilizamos el termino "comunidad" no en su sentido antropológico de sentidos compartidos, sino en el sentido del Análisis de Redes, como un conjunto de actores que interaccionan frecuentemente hacia adentro pero no mucho hacia afuera, siendo esa su frontera con otras comunidades. 
