@@ -11,15 +11,15 @@ output:
 
 ## Introducción
 
-Los hashtags son objetos digitales "nativos" (Rogers 2013). Si bien hay objetos en el mundo digital que tienen un paralelo en la vida offline, como el texto y la imagen, que preexistían a la digitalización, existen otros objetos que nacen con la Web. El hashtag es un desarrollo particular del hiperenlace, un centro de convergencia temático entre los múltiples hilos de la Web, un hiperespacio donde convergen algunas de esas *lineas* de vida, no rectas, de las que nos hablaba Ingold (2015).
+Los hashtags son objetos digitales "nativos" (Rogers 2013). Si bien hay objetos en el mundo digital que tienen un paralelo en la vida offline, como el texto y la imagen, que preexistían a la digitalización, existen otros objetos que nacen con la Web. El hashtag es un desarrollo particular del hiperenlace, un centro de convergencia temático entre los múltiples hilos de la Web, un hiperespacio donde convergen algunas de esas *lineas* de vida de las que nos hablaba Ingold (2015).
 
 En nuestro país el uso de hashtags no parece tan extendido como en otras latitudes. Sin embargo, en el ultimo tiempo se ha visto el uso relativamente masivo de varios de ellos, como un agregador de sentidos, demandas y actividades, principalmente por grupos activistas; por ejemplo, #TipnisEnResistencia, #MejorInternetYa, #NiUnaMenos, y recientemente #BoliviaDijoNo, #21FDiaDeLaMentira y #Paro21F. El uso de hashtags tiene claras ventajas para los usuarios, pero también para los analistas de redes sociales que constantemente tienen que naufragar en cantidades enormes de datos y conversaciones caóticas dispersas en diversos espacios. Aquí el hashtag funciona como un agregador de opinión pública. 
 
 La pasada semana nació una tendencia en las redes que tenía como eje central la figura del presidente Evo Morales. El hashtag #RayoEvolizador nació en Twitter, como un remix de otros hashtags similares en otros países, y rápidamente se expandió a otras plataformas. El centro son los memes que son parte "del remix y la cultura participativa en la que los usuarios agregan, apropian, imitan, parodian, remezclan, editorializan y transforman el contenido original de alguna manera" (Vicery 2015: 1450) Pero además los memes de #RayoEvolizador más allá del contenido visual, portan textos, usuarios, grupos, opiniones, contraopiniones, antagonismos, pulsiones y tácticas.
 
-Si bien parece simplemente un hashtag de "ocio", en realidad es un hashtag políticamente relevante por las siguientes razones. Primero tiene como centro temático a la imagen del presidente del país. Segundo es una muestra acotada de una nueva forma de generar opinión pública en las redes: la de la sátira política en red, una combinación de diversión y crítica. Y tercero, en este hashtag han confluido dos dinámicas distintas, la dinámica civil espontanea y la dinámica política planificada, la primera más participativa y caótica y la segunda más centralizada y planificada.
+Si bien parece simplemente un hashtag de "ocio", en realidad es un hashtag políticamente relevante por las siguientes razones. Primero tiene como centro temático a la imagen del presidente del país. Segundo es una muestra acotada de una nueva forma de generar opinión pública en las redes: la de la sátira política en red, una combinación de humor y crítica. Y tercero, en este hashtag han confluido dos dinámicas distintas, la dinámica civil espontanea y la dinámica política planificada, la primera más participativa y caótica y la segunda más centralizada y planificada.
 
-El objetivo de este artículo es el de analizar las dinámicas estructurales de opinión en torno al hashtag #RayoEvolizador en Twitter. Por dinámica estructural entendemos el conjunto de patrones de redes de comunicación, y no así las dinámicas de contenido que dejamos para otro estudio. Para ello utilizaremos principalmente técnicas del *Social Network Analysis* (SNA), particularmente los algoritmos de detección de comunidades[^1], también llamados módulos, y algunas medidas de centralidad nodal. El *Análisis de Redes Sociales* es "un método estructural-relacional, formal y cuantitativo que se interesa por los patrones de relaciones e interacciones entre los actores" (Ojeda 2015: 17). Este método nos permitirá identificar algunos patrones relevantes en las dinámicas de opinión y agrupación que de otro modo no serían visible mediante, por ejemplo, la etnografía o la estadística tradicional. 
+El objetivo de este artículo es el de analizar las dinámicas estructurales de opinión en torno al hashtag #RayoEvolizador en Twitter. Por dinámica estructural entendemos el conjunto de patrones de redes de comunicación, y no así las dinámicas de contenido que dejamos para otro estudio. Para ello utilizaremos principalmente técnicas del *Social Network Analysis* (SNA), particularmente los algoritmos de detección de comunidades[^1], también llamados módulos, y algunas medidas de centralidad nodal. El *Análisis de Redes Sociales* es "un método estructural-relacional, formal y cuantitativo que se interesa por los patrones de interacciones entre los actores" (Ojeda 2015: 17). Este método nos permitirá identificar algunos patrones relevantes en las dinámicas de agrupación y opinión que de otro modo no serían visibles mediante, por ejemplo, la etnografía o la estadística tradicional. 
 
 ## Recolección de datos
 
@@ -58,7 +58,7 @@ write.graph(rayoactor, "rayoactor.graphml", "graphml")
 
 ### Frecuencia de los tweets y origen del hashtag
 
-Todos los fenómenos virales tienen un origen, una difusión y un decaimiento, siguiente la categorización de [KnowYourMeme](http://knowyourmeme.com/). Para el caso de #RayoEvolizador, mostramos a continuación esos picos de generación de tweets en el tiempo:
+Todos los fenómenos virales tienen un origen, una difusión y un decaimiento, siguiendo la categorización de [KnowYourMeme](http://knowyourmeme.com/). Para el caso de #RayoEvolizador, mostramos a continuación esa dinámica de tweets en el tiempo:
 
 ```{r fig.width = 15}
 library(rtweet)
@@ -75,13 +75,13 @@ ts_plot(rayo, "hours") +
 
 El pico más alto de producción de mensajes se da el día de creación del hashtag, el 28 de febrero. Aunque hay un cierto remonte el 2 de marzo después de que @evoespueblo y la prensa le prestan atención al hashtag. 
 
-La primera comunidad en aparecer el 28 de febrero es la que surge alrededor del primer tweet del usuario @dexanfetamina, un usuario cruceño. Esta comunidad evolucionará para ser la comunidad más grande y activa posteriormente, solo opacada en numero por la de @evoespueblo. 
+La primera comunidad en aparecer el 28 de febrero es la que surge alrededor del primer tweet del usuario @dexanfetamina, un usuario cruceño. Esta comunidad evolucionará para ser la comunidad más grande y activa posteriormente, solo opacada en numero, pero no en densidad, por la de @evoespueblo. 
 
 ![Figura 2. Origen del hashtag\label](img/com1.jpg){ width=70% }
 
 ### El grafo entero
 
-Antes de ir a las comunidades, visualizaremos primero el panorama general de la red entera del hashtag. Los parámetros de la visualización son los siguientes:
+Antes de ir a las comunidades, visualizaremos primero el panorama general de la red entera del hashtag. Los parámetros de la visualización que adoptamos son los siguientes:
 
  Parámetro      | Valor                | 
 | ------------- |:--------------------:| 
@@ -102,15 +102,16 @@ La Figura 3 muestra un *snapshot* del total de nodos e interacciones que partici
 
 ### A. Comunidad de opinión civil 
 
-La comunidad que originó el hashtag creció con el tiempo. Si vemos la forma de sus interacciones, vemos que hay algunos centros claros, pero en general es bastante interactiva. Llamaremos a su forma como "orgánica"", no en el sentido del sindicato, que implica obediencia a las decisiones del grupo, sino en el sentido de las redes sociales digitales, que implica formación de algo a partir de cadenas horizontales de interacciones.
+La comunidad que originó el hashtag creció con el tiempo. En la forma de sus interacciones, vemos que existen algunos centros claros, pero en general es bastante participativo Llamaremos a su forma como "orgánica"", no en el sentido del sindicato, que implica obediencia a la estructura y decisiones colectivas, sino en el sentido de las redes sociales digitales, que implica formación de algo a partir de cadenas horizontales de interacciones.
 
 ![Figura 4. Grafo de la comunidad de opinión civil](img/com1full.jpg)
 
-En esta comunidad tienen mayor presencia usuarios de Twitter que no son políticos ni activistas, sino principalmente de cuentas dedicadas a difundir memes textuales e historias y algunos blogueros. Muchos de ellos incluso actúan a partir de un avatar, mostrando la fuerza de la anonimidad. Para evitar connotaciones de tinte político o activista, los llamaremos "civiles".
+En esta comunidad tienen mayor presencia usuarios de Twitter que no son políticos ni activistas, sino principalmente cuentas dedicadas a difundir memes textuales, historias y algunos blogueros. Muchos de ellos incluso actúan a partir de un avatar, mostrando la fuerza de la anonimidad en Internet. Para evitar connotaciones de tinte político o activista, los llamaremos "civiles".
 
 ```{r message = FALSE}
 library(readr)
 library(dplyr)
+library(magrittr)
 centrales <- read_csv("centrales.csv")
 filter(centrales, Comunidad == "A") %>% 
   knitr::kable()
@@ -138,7 +139,7 @@ Esta es una comunidad de opinión descentralizada de activistas oficialistas. Lo
 La tercera comunidad tiene una forma similar a la anterior, una forma descentralizada e interactiva.
 
 ![Figura 6. Grafo de la comunidad de opinión activista opositora](img/com3full.jpg)
-Los actores principales aquí son activistas y personajes críticos al gobierno. Diremos, por simpleza,que son de "oposición" no en el sentido de oposición política partidario necesariamente, pero sí en un sentido de contraposición al oficialismo. 
+Los actores principales aquí son activistas y personajes críticos al gobierno, e incluso algunas cuentas con avatares. Diremos, por simpleza, que son de "oposición" no en el sentido de oposición política partidaria necesariamente, pero sí en un sentido de contraposición o crítica al oficialismo. 
 
 ```{r}
 filter(centrales, Comunidad == "C") %>% 
@@ -149,18 +150,18 @@ Esta es una comunidad descentralizada de activismo opositor. Existe aquí una me
 
 ### D. Comunidad de opinión gubernamental 
 
-La cuarta comunidad, y la más sorpresiva en cuánto a su peculiar forma, fue la que se desarrolló alrededor de @evoespueblo. Es una comunidad extremadamente centralizada y dispersa entre sí.
+La cuarta comunidad es la más sorpresiva en cuánto a su peculiar forma. Fue la que se desarrolló alrededor de @evoespueblo. Es una comunidad extremadamente centralizada y dispersa entre sí.
 
 ![Figura 7. Grafo de la comunidad oficialista centralizada ](img/com4full.jpg)
 
-Entre los miembros existen usuarios críticos, pero la mayoría son usuarios de apoyo de cuentas internacionales o nacionales. Queda por confirmar si son cuentas de apoyo espontaneo, planificado, pagado o bots, pues la estructura de interacción aquí es bastante peculiar. 
+Entre los miembros existen algunos usuarios críticos que mencionan a @evoespueblo, pero la mayoría son usuarios de apoyo de cuentas internacionales o nacionales. Queda por confirmar si son cuentas de apoyo espontaneo, planificado, pagado o simplemente bots, pues la estructura de interacción aquí es bastante peculiar. 
 
 ```{r}
 filter(centrales, Comunidad == "D") %>% 
   knitr::kable()
 ```
 
-Esta es una comunidad centralizada gubernamental. En el grafo dinámico se verá que esta comunidad tiene una fuerte relación con la comunidad B, aunque no comparten la misma lógica. 
+Esta es una comunidad centralizada alrededor de una cuenta gubernamental En el grafo dinámico se verá que esta comunidad tiene una fuerte relación con la comunidad B, aunque no comparten la misma lógica. 
 
 ### E. Comunidad de opinión con medios
 
@@ -168,14 +169,14 @@ Por ultimo, la quinta comunidad si bien también es descentralizada, poseen cent
 
 ![Figura 8. Grafo de la omunidad de opinión con medios](img/com5full.jpg){ width=80% }
 
-Incorpora principalmente la presencia de tweets de medios sobre las noticias del hashtag. Aunque también hay la presencia de otros civiles y rezagados.
+Incorpora principalmente la presencia de tweets de medios sobre las noticias del hashtag. Aunque también hay la presencia de otros civiles, avatares y rezagados.
 
 ```{r}
 filter(centrales, Comunidad == "E") %>% 
   knitr::kable()
 ```
 
-Es una comunidad descentralizada con medios como los principales *hubs* de información2. 
+Es una comunidad descentralizada con medios como los principales *hubs* de información. 
 
 ### Comparación
 
@@ -183,7 +184,7 @@ Es una comunidad descentralizada con medios como los principales *hubs* de infor
 
 ![](img/comp.jpg)
 
-La comunidad civil es la segunda más grande, ocupando el 16,92% del grafo entero. También posee uno de las densidades más altas, lo cual muestra su vigor, como una comunidad verdaderamente orgánica. Las comunidades de activistas, tanto del oficialismo y la oposición tiene lógicas comunicativas similares, aunque la oficialista crea más lazos hacia adentro que hacia afuera. La comunidad con medios es la más pequeña y tardía, con *hubs* visibles que consumen la participación. Finalmente, el porcentaje más grande del grafo entero lo ocupa la comunidad gubernamental con el 44,51%, pero con la densidad más baja por mucho, al no existir ni siquiera mucha comunicación entre los mismos interlocutores, recordando a un lógica vertical de comunicación. 
+La comunidad civil es la segunda más grande, ocupando el 16,92% del grafo entero. También posee uno de las densidades más altas, lo cual muestra su vigor, como una comunidad verdaderamente orgánica. Las comunidades de activistas, tanto del oficialismo y la oposición tiene lógicas comunicativas similares, aunque la oficialista crea más lazos hacia adentro que hacia afuera. La comunidad con medios es la más pequeña y tardía, con *hubs* visibles que consumen la participación. Finalmente, el porcentaje más grande del grafo entero lo ocupa la comunidad gubernamental con el 44,51%, pero con la densidad más baja por mucho, al no existir ni siquiera mucha comunicación entre los mismos interlocutores, recordando a un lógica de comunicación al éstilo del *broadcasting*. 
 
 ```{r message=FALSE}
 comp <- read_csv2("comp.csv")
@@ -200,11 +201,11 @@ Para una exploración más minuciosa:
 
 ## Conclusiones
 
-El hashtag #RayoEvolizador fue fugaz, como suelen ser los memes y los fenómenos virales. Hoy ya no parece importante y los usuarios de las redes parecen estar siguiendo y generando otras tendencias, en la lógica del prosumidor. Sin embargo, este tipo de fenómenos sociodigitales dejan huellas impresas en la Web, como pudimos visualizar aquí, las cuáles nos sirven para la comprensión de las dinámicas de opinión en redes sociales en nuestro país, siendo que su estudio en nuestro país aún es escaso y sus métodos rústicos.   
+El hashtag #RayoEvolizador fue fugaz, como suelen ser los memes y los fenómenos virales en Internet. Hoy ya no parece importante y los usuarios de las redes parecen estar siguiendo y generando otras tendencias, en la lógica dinámica del prosumidor. Sin embargo, este tipo de fenómenos sociodigitales dejan huellas impresas en la Web, como pudimos visualizar aquí, las cuáles nos sirven para la comprensión de las dinámicas de opinión en redes sociales, siendo que su estudio en nuestro país aún es escaso y con métodos rústicos.   
 
-En este caso, la dinámica concreta fue la siguiente. Una comunidad civil que busca principalmente el humor crea el hashtag, ante lo cual aparecen dos comunidades activistas para tácticamente, desde una lucha de interacción de redes llevar el hashtag a sus horizontes. En eso interviene la cuenta del presidente @evoespueblo para sentar su presencia, teniendo un fuerte apoyo, en primer lugar, de individuos inconexos y en segundo lugar del activismo oficialista. Después de esos encuentros, vienen algunos rezagados, incluyendo la prensa. Es decir que lo que más dinamizó el hashtag fue aquella comunidad orgánica original, para que luego la abordara una lógica de activismo en red y otra lógica centralizada gubernamental. 
+En este caso, la dinámica concreta fue la siguiente. Una comunidad civil que buscaba principalmente el humor crea el hashtag, ante lo cual aparecen dos comunidades activistas para tácticamente, desde una lucha de interacción de redes llevar el hashtag a sus horizontes. En eso interviene la cuenta del presidente @evoespueblo para sentar su presencia, teniendo un fuerte apoyo, en primer lugar, de individuos inconexos y, en segundo lugar, del activismo oficialista. Después de esos encuentros, vienen algunos rezagados, incluyendo la prensa. Es decir que lo que más dinamizó el hashtag fue aquella comunidad orgánica original, para que luego fuera abordadas por una lógica de activismo en red y otra lógica centralizada gubernamental. 
 
-Si bien este es un caso concreto, puede ilustrar otras dinámicas de generación de opinión pública en las redes, principalmente las más sutiles que sólo pueden ser apreciadas a partir una mirada panorámica. Incluyendo la ahora denominada "guerra digital" (Los Tiempos 04/02/2018) que el gobierno afirma haber iniciado. 
+Si bien este es un caso concreto, puede ilustrar otras dinámicas de generación de opinión pública en las redes, principalmente las más sutiles que sólo pueden ser apreciadas a partir una mirada panorámica. Lo cual incluye la ahora denominada "guerra digital"  que el gobierno ha convocado (Los Tiempos 04/02/2018).
 
 ## Bibliografía
 
@@ -229,10 +230,10 @@ Vickery, Jacqueline (2015). "Memes in digital culture". En: *Information, Commun
 
 ## Sobre el autor
 
-Alex Ojeda Copa es sociólogo digital y analista de redes sociales. Pueden encontrarlo en [Twitter](https://twitter.com/alexrocz), [Academia.edu](https://umss.academia.edu/alexroc) y [Linkedin](https://www.linkedin.com/in/alexroc/).
+Alex Ojeda Copa es sociólogo digital y analista de redes sociales. Pueden encontrarlo en [Twitter](https://twitter.com/alexrocz), [LinkedIn](https://www.linkedin.com/in/alexroc/) y [Academia.edu](https://umss.academia.edu/alexroc). 
 
 ## Notas
-[^1]: Aquí utilizamos el termino "comunidad" no en su sentido antropológico de sentidos compartidos, sino en el sentido del Análisis de Redes, como un conjunto de actores que interaccionan frecuentemente hacia adentro pero no mucho hacia afuera, siendo esa su frontera con otras comunidades. 
+[^1]: Aquí utilizamos el termino "comunidad" no en su sentido antropológico de sentidos compartidos, sino en el sentido del Análisis de Redes, como un conjunto de actores que interactuan frecuentemente hacia adentro pero no mucho hacia afuera, siendo esa su frontera con otras comunidades. 
 [^2]: Usamos el algoritmo de modularidad que tiene Gephi incorporado, conocido también como "Louvain Modularity". Básicamente lo que hace este algoritmo es hacer un calculo del peso de las aristas en el vecindario de cada nodo, para detectar nodos donde las aristas son más densas entre sí y al mismo tiempo menos densas frente a otros. Así es posible detectar comunidades basadas en la interacción. Más detalles en: https://arxiv.org/abs/0803.0476. 
 
 
