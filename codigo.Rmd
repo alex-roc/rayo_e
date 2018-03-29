@@ -230,7 +230,7 @@ Vickery, Jacqueline (2015). "Memes in digital culture". En: *Information, Commun
 
 ## Sobre el autor
 
-Alex Ojeda Copa es sociólogo digital y analista de redes sociales. Pueden encontrarlo en [Twitter](https://twitter.com/alexrocz), [LinkedIn](https://www.linkedin.com/in/alexroc/) y [Academia.edu](https://umss.academia.edu/alexroc). 
+Alex Ojeda Copa es sociólogo digital y analista de redes sociales. Otros proyectos en los que está trabajando pueden verse en su [portafolio](https://alex-roc.github.io/). También pueden contactarlo en [Twitter](https://twitter.com/alexrocz), [LinkedIn](https://www.linkedin.com/in/alexroc/) y [Academia.edu](https://umss.academia.edu/alexroc). 
 
 ## Notas
 [^1]: Aquí utilizamos el termino "comunidad" no en su sentido antropológico de sentidos compartidos, sino en el sentido del Análisis de Redes, como un conjunto de actores que interactuan frecuentemente hacia adentro pero no mucho hacia afuera, siendo esa su frontera con otras comunidades. 
