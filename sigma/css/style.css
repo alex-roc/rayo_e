@@ -206,9 +206,9 @@ display:inline-block;
 }
 
 #oii {
-width: 227px;
-height: 56px;
-background-image: url('../images/oii_text.png');
+width: 200px;
+height: 200px;
+background-image: url('../images/logo_lab.png');
 background-repeat: no-repeat;
 display:inline-block;
 margin-right:10px;
